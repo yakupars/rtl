@@ -1,0 +1,17 @@
+{
+  "name": "yakupars/rtl",
+  "description": "mikko test",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Rtl\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "yakupars",
+      "email": "me@yakupars.pw"
+    }
+  ],
+  "require": {}
+}

@@ -17,7 +17,7 @@ return function (ContainerConfigurator $configurator) {
 
     $services->load("Rtl\\", __DIR__ . "/../src/*")
         ->public()
-        ->exclude(__DIR__ . "/../src/{Application.php}");
+        ->exclude(__DIR__ . "/../src/{Dto,Application.php}");
 
     $services
         ->set(Application::class)
